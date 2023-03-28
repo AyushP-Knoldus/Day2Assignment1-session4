@@ -1,8 +1,15 @@
 # Day2Assignment1-session4
-### URL Parser
+## URL Parser
 Create a URL parser using the concept of Extractors (unapply method) with pattern matching that  
 takes the input (URL) as string and displays the protocol, domain name, and path from the given URL.  
 A seperate file named as URLParser is created for the test cases.
+### Input
+“https://www.mywebsite.com/home”
+
+### Output
+Protocol: https  
+Domain: www.mywebsite.com  
+Path: home  
 
 ### Code
 class URLParser(val url: String)
